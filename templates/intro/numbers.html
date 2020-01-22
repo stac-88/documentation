@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block navbar %}
+<ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link active" href="/intro">Introduction</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/detector">Detector</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/tutorials">Tutorials</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/contacts">Contacts</a>
+    </li>
+</ul>
+
+{% endblock navbar %}
+
+
+{% block sidebar %}
+
+<nav class="nav flex-column nav-pills">
+
+  <a class="nav-link" href="/intro">Spokesperson</a>
+  <a class="nav-link" href="/intro/overview">Overview</a>
+  <a class="nav-link" href="/intro/history">History</a>
+  <a class="nav-link" href="/intro/status">Status</a>
+  <a class="nav-link active" href="/intro/numbers">Numbers</a>
+  <a class="nav-link" href="/intro/location">Location</a>
+
+</nav>
+
+{% endblock sidebar %}
+
+{% block content %}
+
+<div class="Container">
+    <div class="row">
+        <div class="card">
+        <div class="card-header">
+            <h2>PHENIX By The Numbers</h2>
+        </div>
+        <div class="card-body">
+        <!--<h2>PHENIX By The Numbers</h2>-->
+
+        <ul>
+           <li>Total weight of all three of the PHENIX magnets and steel = 1,657
+        tons</li>
+
+        </ul>
+
+        <ul>
+           <li>Total weight of all of PHENIX = more than 3,000 tons</li>
+
+        </ul>
+
+        <ul>
+           <li>Dimensions of PHENIX: Bigger than a house. 40 feet wide and four stories
+        high.</li>
+
+        </ul>
+
+        <ul>
+           <li>Total number of electronic channels in all of the PHENIX detectors
+        = 282,922.</li>
+
+        </ul>
+
+        <ul>
+           <li>One piece of PHENIX set a world record as the largest piece of cold
+        rolled steel.</li>
+
+        </ul>
+
+        <ul>
+           <li>During one RHIC year, PHENIX takes enough data to fill enough floppy
+        disks to pave all 8 lanes of the Long Island Expressway from Brookhaven National
+        Laboratory to Manhattan...and back.<br>
+           </li>
+
+        </ul>
+        </div>
+        </div>
+         <br>
+         <br>
+        <div class="card">
+        <div class="card-header">
+            <h2>RHIC By The Numbers</h2>
+        </div>
+        <div class="card-body">
+        <!--<h2>RHIC By The Numbers</h2>-->
+
+        <ul>
+           <li>RHIC's beam travels at 99.995% the speed of light (186,000 miles per
+        second, or 300,000,000 meters per second).</li>
+
+        </ul>
+
+        <ul>
+           <li>RHIC's beam is not continuous instead, it's made up of 57 separate "bunches", each
+               containing billions of ions.</li>
+        </ul>
+
+        <ul>
+           <li>When the machine runs, thousands of subatomic collisions take place each second.</li>
+        </ul>
+
+        <ul>
+           <li>If quark-gluon plasma is formed in a RHIC collision, it will last less than 0.00000000000000000000001 seconds.</li>
+        </ul>
+
+        <ul>
+           <li>The temperature inside a RHIC collision is over trillion degrees, far hotter than the center of the sun.</li>
+        </ul>
+
+        <ul>
+           <li>RHIC ions are so small that, even at high speed, the force of their impact is about
+        the same as the impact of two mosquitoes colliding.</li>
+
+        </ul>
+
+        <ul>
+           <li>In 20 years of running, RHIC will use less than one gram of gold.</li>
+
+        </ul>
+
+        <ul>
+           <li>RHIC's two concentric rings are made up of 1,740 superconducting magnets, strung end-to-end
+        like beads on a necklace.</li>
+
+        </ul>
+
+        <ul>
+           <li>RHIC is powered by over 1,600 miles of superconducting niobium titanium wire, wrapped
+        around the RHIC magnets.</li>
+
+        </ul>
+
+        <ul>
+           <li>To make the superconducting magnets carry electricity without resistance, RHIC magnets
+        are bathed in liquid helium, at a temperature only about 4.5
+        degrees above Absolute Zero, or minus 451.6 Fahrenheit! (Absolute
+        Zero is  minus 273 Celsius, or minus 459 degrees Fahrenheit.
+        It's the  coldest that anything can be.)</li>
+
+        </ul>
+
+        <ul>
+           <li>In all, RHIC uses enough helium to fill all the balloons in the Macy's Thanksgiving Day
+        Parades for the next 100 years.</li>
+
+        </ul>
+
+        <ul>
+           <li>To get the helium chilled down, RHIC's refrigerators draw 15 megawatts of electrical power.
+        (One megawatt is enough to power 1,000 homes.)</li>
+
+        </ul>
+        </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

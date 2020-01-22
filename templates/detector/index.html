@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block navbar %}
+<ul class="navbar-nav">
+
+    <li class="nav-item">
+        <a class="nav-link " href="/intro">Introduction</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="/detector">Detector</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/tutorials">Tutorials</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/contacts">Contacts</a>
+    </li>
+</ul>
+
+{% endblock navbar %}
+
+{% block sidebar %}
+
+<nav class="nav flex-column nav-pills">
+
+  <a class="nav-link active" href="/detector/ ">Design</a>
+  <a class="nav-link" href="/detector/magnets">Magnets</a>
+  <a class="nav-link" href="/detector/bbc">BBC</a>
+  <a class="nav-link" href="/detector/dc">DC</a>
+  <a class="nav-link" href="/detector/pc">PC</a>
+  <a class="nav-link" href="/detector/rich">RICH</a>
+  <a class="nav-link" href="/detector/tof">TOF</a>
+  <a class="nav-link" href="/detector/emcal">EMCal</a>
+  <a class="nav-link" href="/detector/mutr">MuTr</a>
+  <a class="nav-link" href="/detector/muld">MulD</a>
+  <a class="nav-link" href="/detector/zdc">ZDC</a>
+  <a class="nav-link" href="/detector/tofw">TOF-W</a>
+  <a class="nav-link" href="/detector/focal">FoCal (internal)</a>
+  <a class="nav-link" href="/detector/mpc">MPC (internal)</a>
+  <a class="nav-link" href="/detector/fcal">FCAL</a>
+  <a class="nav-link" href="/detector/mvd">MVD</a>
+  <a class="nav-link" href="/detector/highpt">High-pT</a>
+  <a class="nav-link" href="/detector/vtx">VTX</a>
+  <a class="nav-link" href="/detector/fvtx">FVTX</a>
+  <a class="nav-link" href="/detector/hbd">HBD</a>
+  <a class="nav-link" href="/detector/frdupgrade">Forward Upgrade</a>
+
+</nav>
+
+{% endblock sidebar %}
+
+{% block content %}
+
+<div class="Container">
+    <div class="row">
+        <div class="card">
+        <div class="card-header">
+            <h2>Conceptual Design</h2>
+        </div>
+        <div class="card-body">
+        <img style="width:90%; height:60%;" src="{% static 'images/PHENIXdetectorconfig.png' %}">
+        <img style="width:90%; height:40%;" src="{% static 'images/phenixdetector.gif' %}">
+        </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

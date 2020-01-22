@@ -1,0 +1,199 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block navbar %}
+<ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link active" href="/intro">Introduction</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/detector">Detector</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/tutorials">Tutorials</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/contacts">Contacts</a>
+    </li>
+</ul>
+
+{% endblock navbar %}
+
+
+{% block sidebar %}
+
+<nav class="nav flex-column nav-pills">
+
+  <a class="nav-link" href="/intro">Spokesperson</a>
+  <a class="nav-link" href="/intro/overview">Overview</a>
+  <a class="nav-link" href="/intro/history">History</a>
+  <a class="nav-link active" href="/intro/status">Status</a>
+  <a class="nav-link" href="/intro/numbers">Numbers</a>
+  <a class="nav-link" href="/intro/location">Location</a>
+
+</nav>
+
+{% endblock sidebar %}
+
+{% block content %}
+
+<div class="Container">
+    <div class="row">
+        <div class="card">
+        <div class="card-header">
+            <h2>What has PHENIX learned so far?</h2>
+        </div>
+        <div class="card-body">
+
+
+            Here is a summary of published PHENIX results to date. Click <a href="http://www.phenix.bnl.gov/headlines.html"><u>here</u></a> for a collection of news stories about the PHENIX Experiment.<br>
+            <br>
+            <b>The particles are flowing like a fluid</b>: PHENIX can measure how much the particles
+             flow around in the collision. PHENIX observes a significant particle flow
+             effect, which is expected when heavy ions collide.
+             The pattern seen is consistent with a fluid that has a very low viscosity.<br>
+            <br>
+            <img src="{% static 'images/film01.gif' %}">View an animation illustrating elliptic flow - <a href="http://www.phenix.bnl.gov/WWW/software/luxor/ani/ellipticFlow/ellipticSmall1-1.mpg">[4.6 MB MPEG]</a>
+            <br>
+            <br>
+            <b>The interior of the collisions is very, very hot:</b>
+            PHENIX has been able to measure photons (particles of light) emitted from the center of the collisions. The photons tell us that the matter has reached a temperature of 4 trillion degrees Celsius, which is 80 times more than the temperature at the center of the sun.  The very high temperature produced is very favorable for the formation of the Quark-Gluon Plasma.
+            <br>
+            <br>
+            <b>Surprising structure is seen in the correlated emission of particles:</b>
+            PHENIX can measure the angle of emission of particles with respect to each other.
+            This analysis shows that there is a surprising structure that appears
+            in heavy ion collisions that is not seen in collisions of elementary particles.
+            This structure appears to be present in the bulk of the created matter. It was
+            first conjectured that this may be due to the generation of shock waves in
+            the medium. However, recent studies and results suggest that the structure is
+            due to fluctuations in the geometry of individual collisions.
+            <br>
+
+                 <br>
+             <b>There appears to be suppression of particles with a high transverse
+             momentum in Gold+Gold collisions:</b> PHENIX can measure the
+             transverse momentum of charged particles
+             and neutral pions. The transverse momentum is the particle mass times its
+             velocity that goes sideways to the direction that the two ions were travelling
+             before they collided. Particles with a high transverse momentum are generally
+             travelling faster and are more energetic, but they are seen rarely. PHENIX
+             observes that there are fewer particles with a high transverse momentum
+            than  what is expected from measurements of simpler proton collisions. This
+            effect  was predicted to occur if a Quark-Gluon Plasma is formed, and is
+            referred to as <i>Jet Suppression</i>, since the majority of these particles are
+            products of a phenomenon called <i>jets</i>. <br>
+            <br>
+            <img src="{% static 'images/film01.gif' %}">View an animation illustrating jet suppression - <a href="http://www.phenix.bnl.gov/WWW/software/luxor/ani/jetSuppress/jetSuppressSmall1.mpg">[2.3 MB MPEG]</a>
+            <br>
+                <br>
+                <b>There does not appear to be suppression of particles with a high transverse
+             momentum in Deuteron+Gold collisions: </b>
+             In order to confirm the observation of suppression, a control experiment was
+             run by PHENIX in the Spring of 2003.  Here, a collision was studied in which a
+             medium such as the Quark-Gluon Plasma is not expected to be formed.  The
+             collisions studied were small deuteron nuclei colliding with Gold nuclei.
+             In this case, more, rather than fewer, particles are seen with a high transverse
+             momentum.  This observation confirms that the suppression seen in Gold+Gold
+             collisions is most likely due to the influence of a new state of matter being
+             produced, such as a Quark-Gluon Plasma.
+             <br>
+               <br>
+               <b>There are more protons than pions at high transverse momentum: </b>PHENIX
+             can identify different types of particles, including lighter pions and heavier
+             protons and kaons. PHENIX finds that there are more protons than pions at
+             high transverse momentum. This may indicate that the physical processes that
+             produce these particles are occurring differently in heavy ion collisions.
+             Also, there are almost as many anti-protons as protons, which is another
+            indication that conditions are favorable for the production of a Quark-Gluon
+            Plasma.<br>
+                <br>
+                <b>A large number of produced particles are observed: </b>PHENIX finds that
+             there are additional particles produced in collisions of Gold ions than what
+             would be expected from measurements of simpler collisions of protons. This
+             fact hints that conditions may be favorable for the production of a Quark-Gluon
+             Plasma. Also, more particles are produced when the ions collide head on.<br>
+                <br>
+                <b>A large total amount of transverse energy production is observed:</b> PHENIX can
+            measure  the amount of energy that comes out sideways, or transverse, to the
+            direction  the ions were originally travelling. Like the number of produced
+            particles,  the total transverse energy is largest when the ions collide head
+            on. From  this measurement, PHENIX estimates that the density of energy in
+            the center  of the collision is about 30 times that of a normal nucleus. This
+            fact also  hints that conditions may be favorable for Quark-Gluon Plasma production.<br>
+                <br>
+               <b>The source of produced particles is large and short-lived: </b>Borrowing
+             a technique from astronomy that has been applied to measure the radius of
+             individuals stars, the size of the source volume where the particles are
+            produced has been measured by PHENIX. The transverse size of the source appears
+            to be much larger than the original size of the Gold nuclei, and lives for
+            a very short time. The short life is contrary to what is expected from a Quark-Gluon
+            Plasma and remains a mystery to be solved.<br>
+               <br>
+               <b>An electron signal above background is observed</b>: PHENIX is unique
+             at RHIC in that it can identify individual electrons coming from the collision,
+             many of which are the result of decays of heavier particles within the collision.
+             PHENIX measures a number of electrons that is above the expected background.
+             The excess electrons are likely coming from decays of special particles with
+             heavy charm quarks in them. Further study of these charmed particles will
+             help us better understand if a Quark-Gluon Plasma has been formed.<br>
+               <br>
+               <b>Non-random fluctuations are observed:</b>
+               During a phase transition,
+             it is typical to see fluctuations in some properties of the system. PHENIX
+             has measured fluctuations in the charge and average transverse momentum
+            of  each collision. Thus far, PHENIX reports no large charge fluctuations that might
+             be seen if there is a phase transition from a Quark-Gluon Plasma. PHENIX reports that
+             there are excess fluctuations in transverse momentum.
+            <br>
+            <br>
+              <b>The collisions are strange: </b>PHENIX can identify particles that contain
+             strange quarks, which are interesting since strange quarks are not present
+             in the original nuclei so they all must be produced. It is expected that
+            a Quark-Gluon Plasma will produce a large amount of strange quarks.&nbsp;
+            In particular, PHENIX has measured lambda particles. There are more lambda
+            particles seen than expected.<br>
+            <br>
+
+            <a href="http://www.phenix.bnl.gov/papers.html"><u> This </u></a>
+            link to see all of the published results from PHENIX.<br>
+                 <br>
+
+
+            <h2>Has PHENIX found the Quark-Gluon Plasma?       </h2>
+
+            <br>
+            The observation of jet suppression,
+            a very large amount of flow, very large temperature, excessive numbers of electrons,
+            and more high momentum protons than expected suggest that a new state of
+            matter has been created at RHIC. The collected observations of all of the RHIC experiments are
+            consistent with a state of matter that acts as a
+            perfect fluid.  We are continuing to study the properties of the
+            matter produced in RHIC collsions.<br>
+            <br>
+            PHENIX is designed specifically to look at many possible signatures
+            of  the  QGP.  PHENIX is unique in its ability to look at <i>pure</i>
+            probes  of  the collision such as electrons and photons. Here are only a
+            few of the  questions that the PHENIX Collaboration is currently trying to answer as we begin to
+            study the properties of this new state of matter.<br>
+            </div>
+
+
+            <ul>
+                <li>Are the jets really disappearing? Do they really look different than what has been seen before in collisions of protons?  If the jets are disappearing, where does all of the energy go?</li>
+                <li>What causes the excess of electrons measured by PHENIX?</li>
+                <li>Are J/Psi particles disappearing? Do they decay differently than expected?</li>
+                <li>Can we see photons (particles of light) radiating directly from a Quark-Gluon Plasma?  PHENIX has new measurements that confirm the presence of these <i>direct</i> photons.
+                </li><br>
+                <li>Are the masses of the particles moving due to physical effects in a Quark-Gluon Plasma?</li><br>
+                <li>Do the particles decay in the same way as has been measured in simpler particle collisions?<br>
+                </li><br>
+
+              </ul>
+
+        </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
