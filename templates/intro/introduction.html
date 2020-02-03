@@ -1,0 +1,319 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block navbar %}
+<ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link active" href="/intro">Introduction</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/detector">Detector</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/tutorials">Tutorials</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/contacts">Contacts</a>
+    </li>
+</ul>
+
+{% endblock navbar %}
+
+
+{% block sidebar %}
+
+<nav class="nav flex-column nav-pills">
+
+  <a class="nav-link active" href="/intro">Spokesperson</a>
+  <a class="nav-link" href="/intro/overview">Overview</a>
+  <a class="nav-link" href="/intro/history">History</a>
+  <a class="nav-link" href="/intro/status">Status</a>
+  <a class="nav-link" href="/intro/numbers">Numbers</a>
+  <a class="nav-link" href="/intro/location">Location</a>
+
+</nav>
+
+{% endblock sidebar %}
+
+{% block content %}
+
+<div class="Container">
+    <div class="row">
+        <div class="card">
+        <div class="card-header">
+            <h2>PHENIX spokesperson: Yasuyuki Akiba (RIKEN-RBRC)</h2>
+        </div>
+        <div class="card-body">
+
+              <h2><a href="https://www.phenix.bnl.gov/WWW/info/sp/org.html">Organization Chart</a></h2>
+
+              <h2>Customs</h2>
+
+              <p>Like any large and active group, PHENIX has customs and
+              conventions that may not be apparent to newcomers. These various
+              ways of doing business might not be formally written into the
+              by-laws or publication policy; they are customs, policies,
+              conventions and even traditions.  Below are a few; if there are
+              more you think should be listed, please let us know.</p>
+
+              <h2>Meetings</h2>
+
+              <p>PHENIX has a major meeting each month called "Core
+              Week". Core Week takes place during the week of each month
+              containing the second Thursday (this designed to minimize
+              overlap with various holidays, and to provide a simple way to
+              remember the phase). Core Weeks are moved or shifted under
+              exceptional circumstances (example: conflict with Quark Matter
+              or APS meetings).</p>
+
+              <p>The current structure of Core Week has Tuesday mornings
+              reserved for Computing/Analysis, Wednesdays for Detector Council
+              Meetings, Thursdays for Physics Working Groups, and Fridays for
+              plenary sessions. The plenary session each month provides an
+              opportunity for the collaboration to approve new analysis
+              results as PHENIX preliminary. There may also be status reports
+              from members of PHENIX management, Physics Working Group
+              Conveners, or other kinds of talks.</p>
+
+              <p>The June and December Core Weeks are special in that</p>
+
+              <ul>
+            <li>There is a standing meeting of the Institutional Board in
+            those meetings on Thursday afternoon.</li>
+
+            <li>There is a dinner/picnic/celebration on Thursday
+            evening.</li>
+
+              </ul>
+
+              <p>In addition to these monthly meetings, there are weekly
+              Analysis Meetings on Tuesday mornings, weekly meetings of the
+              Physics Working Groups, and sometimes also meetings of subgroups
+              on particular analyses. During data taking periods, there is a
+              daily shift change meeting at 3:30pm in the counting house
+              conference room, and a weekly planning meeting at the same
+              location.</p>
+
+
+              <h2>Data Analysis</h2>
+
+              <p>Data analysis is performed by PHENIX collaborators around the
+              world. Upon becoming a PHENIX member in good standing, a
+              collaborators earns access to the PHENIX data. All analyses must
+              be presented to and accepted by a Physics Working Group before
+              they can be considered for PHENIX preliminary status and shown
+              in public. Generally, it is necessary to discuss details of the
+              analysis at several working group meetings to sufficiently
+              explain the techniques and finalize uncertainties. For details
+              on the procedure, please click on PHENIX preliminary.</p>
+
+              <p>Any PHENIX data shown in public must first be approved as
+              preliminary by the collaboration.</p>
+
+              <p>We do have a custom to allow students and postdocs to present
+              the results of ongoing analyses that have not passed the very
+              high threshold required for "PHENIX Preliminary Data"
+              designation, provided all of the following are met:</p>
+              <ul>
+            <li>The presentation is in a contributed session, such as
+            those of DNP, APS, JPS, etc. The presentation is given by
+                student or postdoc who performed the analysis.</li>
+
+            <li>The meeting does not publish proceedings or an archive of
+            talks.</li>
+
+            <li>The results do not disagree with existing PHENIX preliminary
+                or final data, and do not contain a new physics message.</li>
+
+            <li>The convenors of the relevant PWG(s) determine that all of
+            the above criteria, and all other standard PHENIX analysis
+            criteria, e.g. analysis notes, have been satisfied.</li>
+            </ul>
+
+              <p>Such results should be labeled as "work in progress" on the
+              relevant figures.</p>
+
+              <p>Only one version of a measurement, or plot of a result, can
+              be made preliminary and shown in public. Any new version must be
+              "final", which means in a paper submitted for publication. For
+              details on the procedure for publishing results in PHENIX,
+              please see publishing PHENIX papers and the PHENIX publication
+              policy.</p>
+
+              <h2>Speaking about PHENIX</h2>
+
+              <p>It is the responsibility of the PHENIX Speakers' Bureau to
+              allocate talks on behalf of the collaboration at all conferences
+              and workshops. The procedures for doing this include:</p>
+
+              <p>The primary goal in allocating talks to PHENIX collaborators
+              is to distribute speaking opportunities equitably.  The PSB
+              regularly seeks nominations for speakers from various
+              organizations within PHENIX, such as the Physics Working Groups,
+              Detector Council, Institutional Board, etc. In addition, any
+              PHENIX member can express his/her interest in presenting a talk
+              at any upcoming meeting by contacting a co-convener of a Physics
+              Working Group, or by sending email to the PSB chair.  If you are
+              invited to talk about PHENIX results or represent PHENIX at an
+              upcoming conference, you should inform the conference organizers
+              about the PSB and its role in assigning PHENIX speakers to
+              invited talks. Please forward the invitation to the PSB, so they
+              may advise how to proceed. The PSB has provided the a policy
+              statement clarifying their approach.  As you might imagine, all
+              talks are not created equal. Some, with the highest visibility,
+              are relatively rare and need to be shared among the
+              collaboration. Please see the policy statement for more details
+              on how this is done in PHENIX.  Consideration by the PSB for
+              speaking opportunities reflects collaborators' contributions to
+              all aspects of operating the experiment and analyzing the
+              data. Service to the collaboration is always a good thing.</p>
+
+              <p>There are some exceptions to the purview of the PSB that are
+              worth noting:</p>
+
+              <ul>
+            <li>If you are personally invited to give a colloquium or
+            seminar about PHENIX at some university or lab, by all means
+            do so!  You do not need to clear this talk with the
+            PSB. However, please note that any PHENIX data you present
+            should be data that has been cleared for release, in strict
+            adherence to our Publication Policy. It's a nice courtesy if
+            you inform PHENIX that you are giving this talk, and an even
+            nicer one if you preview it to your colleagues. (Technically
+            you don't need to do this if you are using previously approved
+            transparencies, but an excess of courtesy is not a bad
+            thing.)</li>
+
+              <li>If you have been invited to give an overview talk about all RHIC
+              experiments, or heavy ion physics, or the nature of the
+              universe, again this is not something that needs to be cleared
+              with the PSB. But the same caveats and suggestions as listed
+              above apply.</li>
+              </ul>
+
+              <p>The issue of PHENIX talks versus general RHIC talks, big
+              conferences versus small workshops, etc. is a complex one,
+              definitely left to customs rather than by-laws. The Speakers'
+              Bureau, in consultation with the Executive Council, has provided
+              a policy statement to clarify this.  Submitting Abstracts</p>
+
+              <p>You are strongly encouraged to submit abstracts describing
+              your PHENIX work to any and all meetings that accept them (for
+              example, annual meetings of DNP, APS, JPS, EPS, as well as
+              specialty conferences such as CHEP). </p>
+
+              <p>If your abstract contains new data, then a very high
+              threshold must be met for submission, following the entire set
+              of careful procedures outlined in the Publication Policy. </p>
+
+              <p>We have a custom to allow students and postdocs to present
+              the results of ongoing analyses,that have not passed the very
+              high threshold required for "PHENIX Preliminary Data"
+              designation, provided all of the following are met:</p>
+              <ul>
+
+            <li>The presentation is in a contributed session, such as
+            those of DNP, APS, JPS, etc. The presentation is given by
+                student or postdoc who performed the analysis.</li>
+
+            <li>The meeting does not publish proceedings or an archive of
+            talks.</li>
+
+            <li>The results do not disagree with existing PHENIX preliminary
+                or final data, and do not contain a new physics message.</li>
+
+            <li>The convenors of the relevant PWG(s) determine that all of
+            the above criteria, and all other standard PHENIX analysis
+            criteria, e.g. analysis notes, have been satisfied. </li>
+
+              </ul>
+
+              <p>Such results should be labeled as "work in progress" on the
+              relevant figures.</p>
+
+              <p>For those abstracts that describe sub-system performance or
+              physics simulations, we have made a deliberate effort to create
+              a more expedient process. You simply need to be sure that your
+              abstract has been cleared with the appropriate Detector Council
+              member(s) AND/OR Physics Working Group(s) conveners. (The
+              parenthetical "s" are for those instances where more than one DC
+              member or PWG is involved; the AND/OR means that if there is any
+              question, you need the AND, not the OR!). </p>
+
+              <p>Please don't forget to also inform the PHENIX Speakers'
+              Bureau of your submission, since the bureau is expected to
+              coordinate abstract submissions. (The exception to this is the
+              case of contributed abstracts for "10 minute" talks to DNP, JPS,
+              etc., here the PWG convenors and/or Detector Council member(s)
+              are charged with the necessary coordination. Further details are
+              available in postings to phenix-p-l@bnl.gov)</p>
+
+              <p>Note: It is not sufficient to post the abstract to the
+              sub-system list with a note saying "I need to submit this in 24
+              hours; let me know if you see anything wrong." You must get the
+              active agreement from the relevant DC and/or PWG
+              conveners. Simple courtesy to them implies that you should give
+              them several days advance warning; simple courtesy to all your
+              PHENIX collaborators implies that you should post this to the
+              list, not in a private communication.  </p>
+
+              <p>The PHENIX Speakers' Bureau is expected to list upcoming
+              PHENIX talks as well as coordinate abstract
+              submissions. Abstracts submitted to conferences that cover
+              physics topics or both physics and technical topics will be
+              handled directly by the PSB. In the case of strictly technical
+              conferences such as CHEP, the PSB may appoint a coordinator for
+              a given conference to perform this task. In either case, please
+              be sure to CC the PSB on your abstract submission.</p>
+
+              <h2>Archiving your PHENIX material</h2>
+
+              <p>Speaking on behalf of PHENIX carries with it certain
+            responsibilities. Some are noted above in the section detailing
+            the PHENIX Speakers' Bureau and the Publication Policies. Here
+            are a few more required steps.</p>
+              <ul>
+
+            <li>Post a preview of your talk in your p/draft/AppropriateSubdirectory...  area. </li>
+
+            <li>Announce the preview on the relevant list(s). phenix-p-l
+            for general talks, or the appropriate Physics Working Group
+            list for more targeted talks.</li>
+
+            <li>Post the talk you gave in your
+            publish/AppropriateSubdirectory... area.</li>
+
+            <li>Post the proceedings (if any) again in p/draft for review,
+            then publish/... upon approval.</li>
+
+            <li>Post to the talks database using the talk entry form.</li>
+
+              </ul>
+
+              <p>Said differently: It is your responsibility to maintain all
+              PHENIX talks, manuscripts, etc. that you have presented outside
+              the collaboration in your /phenix/publish/YourName area (or
+              subdirectories thereof). Again, posting these in a public area
+              is subject to the rules of our Publication Policy. Similarly,
+              any material internal to PHENIX (notes, talks, drafts) should be
+              maintained in your /phenix/p/drafts/YourName area. Much more
+              detailed guidelines are maintained by Brant Johnson. Please make
+              sure your contributions on behalf of PHENIX are made known to
+              the PHENIX office!</p>
+
+              <h2>Leaving PHENIX</h2>
+
+              <p>Ideally, this doesn't happen! But of course in the real world
+              it does occur. You may want to transfer some significant amount
+              of your PHENIX files to your new job site. To accommodate this,
+              your PHENIX account will remain active for some period of time
+              (typically 30 days). After that, the material will be archived,
+              and you account will be deactivated.</p>
+
+
+        </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
