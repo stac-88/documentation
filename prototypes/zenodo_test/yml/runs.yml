@@ -1,0 +1,63 @@
+- run: 01
+  period: 1999-2001
+  coordinator: Achim Franz, BNL.
+
+- run: 02
+  period: 2001-2002
+  coordinator: Anthony D. Frawley, FSU.
+
+- run: 03
+  period: 2002-2003
+  coordinator: Matthias Grosse Perdekamp, UIUC and RBRC.
+
+- run: 04
+  period: 2003-2004
+  coordinator: Terry C. Awes, ORNL.
+  
+- run: 05
+  period: 2004-2005
+  coordinator: John Lajoie, ISU.
+
+- run: 06
+  period: 2005-2006
+  coordinator: Abhay Deshpande, SUNYSB and RBRC.
+  
+- run: 07
+  period: 2006-2007
+  coordinator: Michael J. Leitch, LANL.
+  
+- run: 08
+  period: 2007-2008
+  coordinator: Michael J. Leitch, LANL.
+  
+- run: 09
+  period: 2008-2009
+  coordinator: John Haggerty, BNL.
+    
+- run: 10
+  period: 2009-2010
+  coordinator: Stefan Bathe, RIKEN-BNL.
+- run: 11
+
+  period: 2010-2011
+  coordinator: Takao Sakaguchi, BNL.
+  
+- run: 12
+  period: 2011-2012
+  coordinator: Xiaochun He, GSU.
+
+- run: 13
+  period: 2013
+  coordinator: Hubert van Hecke, LANL.
+  
+- run: 14
+  period: 2014
+  coordinator: Klaus Dehmelt, SUNYSB.
+  
+- run: 15
+  period: 2015
+  coordinator: Douglas Fields, UNM; Itaru Nakagawa, Riken/RBRC (spin).
+  
+- run: 16
+  period: 2016
+  coordinator: Denis Jouan, IPNO.
