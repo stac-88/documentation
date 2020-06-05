@@ -1,0 +1,23 @@
+independent_variables:
+- header: {name: '$Z_T [GeV/c]$'}
+  values:
+  - {value: 0.233}
+  - {value: 0.410}
+  - {value: 0.620}
+dependent_variables:
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: '$Z_T [GeV/c]$', value: '$I_{AA}(Z_T)$ for the 20% most central Au+Au data at 5<$p_T^{\gamma}$<7 GeV/c compared to predictions from an energy loss calculation.'}
+  values:
+  - value: 0.436
+    errors:
+    - {symerror: 0.323, label: 'stat'}
+    - {asymerror: {plus: 0.336, minus: 0.337, label: 'sys'}}
+  - value: 0.635
+    errors:
+    - {symerror: 0.317, label: 'stat'}
+    - {asymerror: {plus: 0.219, minus: 0.231, label: 'sys'}}
+  - value: 0.310
+    errors:
+    - {symerror: 0.144, label: 'stat'}
+    - {asymerror: {plus: 0.090, minus: 0.090, label: 'sys'}}

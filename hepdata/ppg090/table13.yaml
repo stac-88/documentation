@@ -1,0 +1,23 @@
+independent_variables:
+- header: {name: '$p_T^h [GeV/c]$'}
+  values:
+  - {value: 1.32}
+  - {value: 2.32}
+  - {value: 3.51}
+dependent_variables:
+- header: {name: '$I_{AA}$'}
+  qualifiers:
+  - {name: '$p_T^h [GeV/c]$', value: 'Ratio of $I_{AA}$ of Au+Au to p+p yields at 5<$p_T^{\gamma}$<7 GeV/c.'}
+  values:
+  - value: 0.436
+    errors:
+    - {symerror: 0.323, label: 'stat'}
+    - {asymerror: {plus: 0.336, minus: 0.337, label: 'sys'}}
+  - value: 0.635
+    errors:
+    - {symerror: 0.317, label: 'stat'}
+    - {asymerror: {plus: 0.219, minus: 0.231, label: 'sys'}}
+  - value: 0.310
+    errors:
+    - {symerror: 0.144, label: 'stat'}
+    - {asymerror: {plus: 0.090, minus: 0.090, label: 'sys'}}
