@@ -1,28 +1,28 @@
 independent_variables:
 - header: {name: '$\Delta\phi$'}
   values:
-  - {value: 0.087266}
-  - {value: 0.261799}
-  - {value: 0.436332}
-  - {value: 0.610865}
-  - {value: 0.785398}
-  - {value: 0.959931}
-  - {value: 1.134464}
-  - {value: 1.308997}
-  - {value: 1.483530}
-  - {value: 1.658063}
-  - {value: 1.832596}
-  - {value: 2.007129}
-  - {value: 2.181662}
-  - {value: 2.356194}
-  - {value: 2.530727}
-  - {value: 2.705260}
-  - {value: 2.879793}
-  - {value: 3.054326}
+  - {low: 0.00, high: 0.20}
+  - {low: 0.20, high: 0.40}
+  - {low: 0.40, high: 0.60}
+  - {low: 0.60, high: 0.75}
+  - {low: 0.75, high: 0.90}
+  - {low: 0.90, high: 1.05}
+  - {low: 1.05, high: 1.20}
+  - {low: 1.20, high: 1.40}
+  - {low: 1.40, high: 1.60}
+  - {low: 1.60, high: 1.80}
+  - {low: 1.80, high: 1.95}
+  - {low: 1.95, high: 2.10}
+  - {low: 2.10, high: 2.30}
+  - {low: 2.30, high: 2.50}
+  - {low: 2.50, high: 2.65}
+  - {low: 2.65, high: 2.80}
+  - {low: 2.80, high: 2.95}
+  - {low: 2.95, high: 3.10}
 dependent_variables:
-- header: {name: '$C(Delta_phi)$'}
+- header: {name: '$C(\Delta\phi)$'}
   qualifiers:
-  - {name: '$\Delta\phi$', value: 'Correlation Function: central collisions, all triggers, 3-4 GeV/c partners.'}
+  - {name: '$\Delta\phi$', value: '$\textrm{Correlation Function: central collisions, all triggers, 3-4 GeV/c partners.}$'}
   values:
   - value: 1.754357
     errors:
@@ -78,9 +78,9 @@ dependent_variables:
   - value: 0.925663
     errors:
     - {symerror: 0.013400, label: 'stat'}
-- header: {name: '$C(Delta_phi)$'}
+- header: {name: '$C(\Delta\phi)$'}
   qualifiers:
-  - {name: '$\Delta\phi$', value: 'Correlation Function: mid-central collisions, all triggers, 3-4 GeV/c partners.'}
+  - {name: '$\Delta\phi$', value: '$\textrm{Correlation Function: mid-central collisions, all triggers, 3-4 GeV/c partners.}$'}
   values:
   - value: 2.424051
     errors:
