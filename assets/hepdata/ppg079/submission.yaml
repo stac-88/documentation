@@ -8,4 +8,5 @@ description: '$\pi^0$ $0-5\%$ centrality'
 keywords:
   - {name: reactions, values: [AU AU --> NEUTRAL X]}
   - {name: cmenergies, values: [200.0]}
+  - {name: phrases, values: [ppg079]}
 data_file: fig1.yaml
