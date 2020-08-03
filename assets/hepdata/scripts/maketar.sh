@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo Making a tar file of the contents of the folder: $1
-tar -cvf $1.tar $1/*.yaml
+echo Making a tar file with the name $1.tar
+tar -cvf $1.tar *.yaml
