@@ -3,6 +3,9 @@ comment: |
 additional_resources:
   - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg216_data.html", description: "web page with data points"}
 ---
+additional_resources:
+- {location: figure2vnDatav2.png, description: Image file}
+- {location: thumb_figure2vnDatav2.png, description: Thumbnail Image file}
 name: "Figure 2-1"
 description: 'Second order flow for pAu collisions 0-5 centrality bins'
 keywords:
