@@ -33,155 +33,155 @@ dependent_variables:
   values:
   - value: 0.0024
     errors:
-    - {symerror: 0.0001, label: 'Statical Error'}
+    - {symerror: 0.0001, label: 'stat'}
   - value: 0.0094
     errors:
-    - {symerror: 0.0005, label: 'Statical Error'}
+    - {symerror: 0.0005, label: 'stat'}
   - value: 0.0193
     errors:
-    - {symerror: 0.0010, label: 'Statical Error'}
+    - {symerror: 0.0010, label: 'stat'}
   - value: 0.0287
     errors:
-    - {symerror: 0.0015, label: 'Statical Error'}
+    - {symerror: 0.0015, label: 'stat'}
   - value: 0.0375
     errors:
-    - {symerror: 0.0019, label: 'Statical Error'}
+    - {symerror: 0.0019, label: 'stat'}
   - value: 0.0458
     errors:
-    - {symerror: 0.0023, label: 'Statical Error'}
+    - {symerror: 0.0023, label: 'stat'}
   - value: 0.0539
     errors:
-    - {symerror: 0.0027, label: 'Statical Error'}
+    - {symerror: 0.0027, label: 'stat'}
   - value: 0.0612
     errors:
-    - {symerror: 0.0031, label: 'Statical Error'}
+    - {symerror: 0.0031, label: 'stat'}
   - value: 0.0686
     errors:
-    - {symerror: 0.0034, label: 'Statical Error'}
+    - {symerror: 0.0034, label: 'stat'}
   - value: 0.0754
     errors:
-    - {symerror: 0.0037, label: 'Statical Error'}
+    - {symerror: 0.0037, label: 'stat'}
   - value: 0.0812
     errors:
-    - {symerror: 0.0040, label: 'Statical Error'}
+    - {symerror: 0.0040, label: 'stat'}
   - value: 0.0872
     errors:
-    - {symerror: 0.0043, label: 'Statical Error'}
+    - {symerror: 0.0043, label: 'stat'}
   - value: 0.0921
     errors:
-    - {symerror: 0.0047, label: 'Statical Error'}
+    - {symerror: 0.0047, label: 'stat'}
   - value: 0.0992
     errors:
-    - {symerror: 0.0050, label: 'Statical Error'}
+    - {symerror: 0.0050, label: 'stat'}
   - value: 0.1021
     errors:
-    - {symerror: 0.0052, label: 'Statical Error'}
+    - {symerror: 0.0052, label: 'stat'}
   - value: 0.1108
     errors:
-    - {symerror: 0.0053, label: 'Statical Error'}
+    - {symerror: 0.0053, label: 'stat'}
   - value: 0.1101
     errors:
-    - {symerror: 0.0055, label: 'Statical Error'}
+    - {symerror: 0.0055, label: 'stat'}
   - value: 0.1238
     errors:
-    - {symerror: 0.0064, label: 'Statical Error'}
+    - {symerror: 0.0064, label: 'stat'}
   - value: 0.1229
     errors:
-    - {symerror: 0.0064, label: 'Statical Error'}
+    - {symerror: 0.0064, label: 'stat'}
   - value: 0.1365
     errors:
-    - {symerror: 0.0070, label: 'Statical Error'}
+    - {symerror: 0.0070, label: 'stat'}
   - value: 0.1434
     errors:
-    - {symerror: 0.0064, label: 'Statical Error'}
+    - {symerror: 0.0064, label: 'stat'}
   - value: 0.1520
     errors:
-    - {symerror: 0.0085, label: 'Statical Error'}
+    - {symerror: 0.0085, label: 'stat'}
   - value: 0.1587
     errors:
-    - {symerror: 0.0092, label: 'Statical Error'}
+    - {symerror: 0.0092, label: 'stat'}
   - value: 0.1912
     errors:
-    - {symerror: 0.0125, label: 'Statical Error'}
+    - {symerror: 0.0125, label: 'stat'}
   - value: 0.2331
     errors:
-    - {symerror: 0.0162, label: 'Statical Error'}
+    - {symerror: 0.0162, label: 'stat'}
 - header: {name: '$v_3$'}
   qualifiers:
   - {name: '$p_T$', value: '$p+Au$'}
   values:
   - value: 0.0016
     errors:
-    - {symerror: 0.0001, label: 'Statical Error'}
+    - {symerror: 0.0001, label: 'stat'}
   - value: 0.0014
     errors:
-    - {symerror: 0.0001, label: 'Statical Error'}
+    - {symerror: 0.0001, label: 'stat'}
   - value: 0.0020
     errors:
-    - {symerror: 0.0001, label: 'Statical Error'}
+    - {symerror: 0.0001, label: 'stat'}
   - value: 0.0036
     errors:
-    - {symerror: 0.0002, label: 'Statical Error'}
+    - {symerror: 0.0002, label: 'stat'}
   - value: 0.0053
     errors:
-    - {symerror: 0.0003, label: 'Statical Error'}
+    - {symerror: 0.0003, label: 'stat'}
   - value: 0.0073
     errors:
-    - {symerror: 0.0004, label: 'Statical Error'}
+    - {symerror: 0.0004, label: 'stat'}
   - value: 0.0096
     errors:
-    - {symerror: 0.0005, label: 'Statical Error'}
+    - {symerror: 0.0005, label: 'stat'}
   - value: 0.0122
     errors:
-    - {symerror: 0.0007, label: 'Statical Error'}
+    - {symerror: 0.0007, label: 'stat'}
   - value: 0.0147
     errors:
-    - {symerror: 0.0008, label: 'Statical Error'}
+    - {symerror: 0.0008, label: 'stat'}
   - value: 0.0180
     errors:
-    - {symerror: 0.0010, label: 'Statical Error'}
+    - {symerror: 0.0010, label: 'stat'}
   - value: 0.0220
     errors:
-    - {symerror: 0.0012, label: 'Statical Error'}
+    - {symerror: 0.0012, label: 'stat'}
   - value: 0.0254
     errors:
-    - {symerror: 0.0014, label: 'Statical Error'}
+    - {symerror: 0.0014, label: 'stat'}
   - value: 0.0300
     errors:
-    - {symerror: 0.0015, label: 'Statical Error'}
+    - {symerror: 0.0015, label: 'stat'}
   - value: 0.0315
     errors:
-    - {symerror: 0.0015, label: 'Statical Error'}
+    - {symerror: 0.0015, label: 'stat'}
   - value: 0.0389
     errors:
-    - {symerror: 0.0018, label: 'Statical Error'}
+    - {symerror: 0.0018, label: 'stat'}
   - value: 0.0417
     errors:
-    - {symerror: 0.0021, label: 'Statical Error'}
+    - {symerror: 0.0021, label: 'stat'}
   - value: 0.0471
     errors:
-    - {symerror: 0.0026, label: 'Statical Error'}
+    - {symerror: 0.0026, label: 'stat'}
   - value: 0.0527
     errors:
-    - {symerror: 0.0025, label: 'Statical Error'}
+    - {symerror: 0.0025, label: 'stat'}
   - value: 0.0567
     errors:
-    - {symerror: 0.0031, label: 'Statical Error'}
+    - {symerror: 0.0031, label: 'stat'}
   - value: 0.0592
     errors:
-    - {symerror: 0.0034, label: 'Statical Error'}
+    - {symerror: 0.0034, label: 'stat'}
   - value: 0.0778
     errors:
-    - {symerror: 0.0043, label: 'Statical Error'}
+    - {symerror: 0.0043, label: 'stat'}
   - value: 0.0904
     errors:
-    - {symerror: 0.0058, label: 'Statical Error'}
+    - {symerror: 0.0058, label: 'stat'}
   - value: 0.1141
     errors:
-    - {symerror: 0.0069, label: 'Statical Error'}
+    - {symerror: 0.0069, label: 'stat'}
   - value: 0.1470
     errors:
-    - {symerror: 0.0087, label: 'Statical Error'}
+    - {symerror: 0.0087, label: 'stat'}
   - value: 0.1749
     errors:
-    - {symerror: 0.0151, label: 'Statical Error'}
+    - {symerror: 0.0151, label: 'stat'}

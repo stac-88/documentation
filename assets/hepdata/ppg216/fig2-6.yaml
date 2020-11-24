@@ -21,53 +21,53 @@ dependent_variables:
   values:
   - value: 0.0101
     errors:
-    - {symerror: 0.0009, label: 'v2 Statical Error'}
-    - {asymerror: {plus: +0.0022, minus: -0.0023}, label: 'v2 Systematic'}
+    - {symerror: 0.0009, label: 'stat'}
+    - {asymerror: {plus: +0.0022, minus: -0.0023}, label: 'sys'}
   - value: 0.0157
     errors:
-    - {symerror: 0.0010, label: 'v2 Statical Error'}
-    - {asymerror: {plus: +0.0034, minus: -0.0035}, label: 'v2 Systematic'}
+    - {symerror: 0.0010, label: 'stat'}
+    - {asymerror: {plus: +0.0034, minus: -0.0035}, label: 'sys'}
   - value: 0.0231
     errors:
-    - {symerror: 0.0013, label: 'v2 Statical Error'}
-    - {asymerror: {plus: +0.0050, minus: -0.0051}, label: 'v2 Systematic'}
+    - {symerror: 0.0013, label: 'stat'}
+    - {asymerror: {plus: +0.0050, minus: -0.0051}, label: 'sys'}
   - value: 0.0297
     errors:
-    - {symerror: 0.0016, label: 'v2 Statical Error'}
-    - {asymerror: {plus: +0.0065, minus: -0.0064}, label: 'v2 Systematic'}
+    - {symerror: 0.0016, label: 'stat'}
+    - {asymerror: {plus: +0.0065, minus: -0.0064}, label: 'sys'}
   - value: 0.0368
     errors:
-    - {symerror: 0.0020, label: 'v2 Statical Error'}
-    - {asymerror: {plus: +0.0080, minus: -0.0079}, label: 'v2 Systematic'}
+    - {symerror: 0.0020, label: 'stat'}
+    - {asymerror: {plus: +0.0080, minus: -0.0079}, label: 'sys'}
   - value: 0.0385
     errors:
-    - {symerror: 0.0026, label: 'v2 Statical Error'}
-    - {asymerror: {plus: +0.0084, minus: -0.0081}, label: 'v2 Systematic'}
+    - {symerror: 0.0026, label: 'stat'}
+    - {asymerror: {plus: +0.0084, minus: -0.0081}, label: 'sys'}
   - value: 0.0425
     errors:
-    - {symerror: 0.0032, label: 'v2 Statical Error'}
-    - {asymerror: {plus: +0.0093, minus: -0.0088}, label: 'v2 Systematic'}
+    - {symerror: 0.0032, label: 'stat'}
+    - {asymerror: {plus: +0.0093, minus: -0.0088}, label: 'sys'}
   - value: 0.0446
     errors:
-    - {symerror: 0.0041, label: 'v2 Statical Error'}
-    - {asymerror: {plus: +0.0097, minus: -0.0090}, label: 'v2 Systematic'}
+    - {symerror: 0.0041, label: 'stat'}
+    - {asymerror: {plus: +0.0097, minus: -0.0090}, label: 'sys'}
   - value: 0.0504
     errors:
-    - {symerror: 0.0051, label: 'v2 Statical Error'}
-    - {asymerror: {plus: +0.0110, minus: -0.0100}, label: 'v2 Systematic'}
+    - {symerror: 0.0051, label: 'stat'}
+    - {asymerror: {plus: +0.0110, minus: -0.0100}, label: 'sys'}
   - value: 0.0465
     errors:
-    - {symerror: 0.0063, label: 'v2 Statical Error'}
-    - {asymerror: {plus: +0.0101, minus: -0.0089}, label: 'v2 Systematic'}
+    - {symerror: 0.0063, label: 'stat'}
+    - {asymerror: {plus: +0.0101, minus: -0.0089}, label: 'sys'}
   - value: 0.0582
     errors:
-    - {symerror: 0.0078, label: 'v2 Statical Error'}
-    - {asymerror: {plus: +0.0127, minus: -0.0108}, label: 'v2 Systematic'}
+    - {symerror: 0.0078, label: 'stat'}
+    - {asymerror: {plus: +0.0127, minus: -0.0108}, label: 'sys'}
   - value: 0.0389
     errors:
-    - {symerror: 0.0095, label: 'v2 Statical Error'}
-    - {asymerror: {plus: +0.0085, minus: -0.0069}, label: 'v2 Systematic'}
+    - {symerror: 0.0095, label: 'stat'}
+    - {asymerror: {plus: +0.0085, minus: -0.0069}, label: 'sys'}
   - value: 0.0411
     errors:
-    - {symerror: 0.0116, label: 'v2 Statical Error'}
-    - {asymerror: {plus: +0.0090, minus: -0.0070}, label: 'v2 Systematic'}
+    - {symerror: 0.0116, label: 'stat'}
+    - {asymerror: {plus: +0.0090, minus: -0.0070}, label: 'sys'}
