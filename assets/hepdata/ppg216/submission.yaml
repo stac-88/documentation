@@ -1,0 +1,46 @@
+comment: |
+  BNL-RHIC.  The experimental study of the collisions of heavy nuclei at relativistic energies has established the properties of the quark-gluon plasma (QGP), a state of hot, dense nuclear matter in which quarks and gluons are not bound into hadrons. In this state, matter behaves as a nearly inviscid fluid that efficiently translates initial spatial anisotropies into correlated momentum anisotropies among the produced particles, producing a common velocity field pattern known as collective flow. In recent years, comparable momentum anisotropies have been measured in small-system proton-proton (p+p) and proton-nucleus (p+A) collisions, despite expectations that the volume and lifetime of the medium produced would be too small to form a QGP. Here, we report on the observation of elliptic and triangular flow patterns of charged particles produced in proton-gold (p+Au), deuteron-gold (d+Au), and helium-gold (3He+Au) collisions at a nucleon-nucleon center-of-mass energy 200 GeV. The unique combination of three distinct initial geometries and two flow patterns provides unprecedented model discrimination. Hydrodynamical models, which include the formation of a short-lived QGP droplet, provide a simultaneous description of these measurements.
+additional_resources:
+  - {location: "https://phenix-intra.sdcc.bnl.gov/phenix/WWW/info/data/ppg216_data.html", description: "web page with data points"}
+---
+name: "Figure 2-1"
+description: 'Second order flow for pAu collisions 0-5 centrality bins'
+keywords:
+  - {name: reactions, values: [P+AU D+AU HE+AU]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig2-1.yaml
+---
+name: "Figure 2-2"
+description: 'Second order flow for dAu collisions 0-5 centrality bins'
+keywords:
+  - {name: reactions, values: [P+AU D+AU HE+AU]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig2-2.yaml
+---
+name: "Figure 2-3"
+description: 'Second order flow for He3Au collisions 0-5 centrality bins'
+keywords:
+  - {name: reactions, values: [P+AU D+AU HE+AU]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig2-3.yaml
+---
+name: "Figure 2-4"
+description: 'Third order flow for pAu collisions 0-5 centrality bins'
+keywords:
+  - {name: reactions, values: [P+AU D+AU HE+AU]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig2-4.yaml
+---
+name: "Figure 2-5"
+description: 'Third order flow for dAu collisions 0-5 centrality bins'
+keywords:
+  - {name: reactions, values: [P+AU D+AU HE+AU]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig2-5.yaml
+---
+name: "Figure 2-6"
+description: 'Third order flow for He3Au collisions 0-5 centrality bins'
+keywords:
+  - {name: reactions, values: [P+AU D+AU HE+AU]}
+  - {name: cmenergies, values: [200.0]}
+data_file: fig2-6.yaml
